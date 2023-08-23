@@ -515,6 +515,7 @@ pip install -r requirements.txt
 By default (recommendation) the stock list will be used: `"@CHILL": ["UBER", "PYPL"]`
 
 Run `0_API_alphavantage_get_old_history.py` Optional. File generate example:  `d_price/RAW_alpha/alpha_UBER_15min_20230414__20230317.csv`
+Run BETTER get **alpaca API** key and  `0_API_alpaca_historical.py` 
 
 Run `1_Get_technical_indicators.py` Files generate example: `d_price/PYPL_PLAIN_stock_history_MONTH_3_AD.csv` and `plots_relations/best_selection_PYPL_both.json`
 
@@ -570,6 +571,8 @@ If more stock execution is desired, change to @FOLO3 o similar in file `_KEYS_DI
 ` `The API yfinance , if you want price to price intervals in 15min intervals is limited to 2 months, to get more time data up to 2 years back (more data better predictive models) use the free version of the API https://www.alphavantage.co/documentation/  
 
 Run `0_API_alphavantage_get_old_history.py`
+
+Run BETTER get **alpaca API** key and  `0_API_alpaca_historical.py` 
 
 The class is customizable: action intervals, months to ask, and ID action.
 
